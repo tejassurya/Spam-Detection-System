@@ -1,0 +1,6 @@
+Sir how about this topic is good? 
+Name : Tejas Suryavanshi
+
+Project Topic : Spam Email / SMS Detection.
+
+Project Description : Spam Email/SMS Detection is an AI-based project that uses Machine Learning and Natural Language Processing to automatically classify incoming messages as spam or legitimate.
