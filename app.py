@@ -1,6 +1,5 @@
 from flask import Flask, request, render_template, redirect, url_for, session
 import joblib
-import os
 import sqlite3
 from werkzeug.security import generate_password_hash, check_password_hash
 
@@ -333,7 +332,6 @@ def admin_logout():
 
 
 if __name__ == "__main__":
-    port = int(os.version.get("PORT",5000))
-    app.run(host="0.0.0.0", port=port)
+    app.run(debug=True)
 
 
