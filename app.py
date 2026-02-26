@@ -3,7 +3,7 @@ import joblib
 import sqlite3
 from werkzeug.security import generate_password_hash, check_password_hash
 
-app = Flask(__name__)
+myapp = Flask(__name__)
 app.secret_key = "secret123"
 
 # Load ML model
